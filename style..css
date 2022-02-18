@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    color: burlywood;
+}
+
+.digit {
+    font-size: 2.50rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.0rem;
+}
+
+#btn.container {
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 1.0rem;
+}
+
+.btn {
+    padding: .6rem;
+    font-size: 1.5rem;
+    margin: orem 1.0rem;
+    color: white;
+    border: 0rem;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+#start {
+    background-color: aqua;
+}
+
+#stop {
+    background-color: cadetblue;
+}
+
+#reset {
+    background-color: red;
+}
